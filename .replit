@@ -22,7 +22,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "export ANDROID_HOME=/home/runner/android-sdk && export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java)))) && export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools && ./gradlew :app:assembleDebug"
+args = "cd /home/runner/workspace && export ANDROID_HOME=/home/runner/android-sdk && export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java)))) && export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools && ./gradlew :app:assembleDebug"
 
 [deployment]
 run = ["sh", "-c", "cd app && ./gradlew appStart"]
