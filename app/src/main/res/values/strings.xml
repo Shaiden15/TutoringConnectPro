@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Tutoring App</string>
+    <string name="app_logo">App Logo</string>
+    <string name="app_slogan">Connect with peer tutors</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <!-- Authentication -->
+    <string name="login">Log In</string>
+    <string name="login_welcome">Welcome Back!</string>
+    <string name="login_subtitle">Login to access your tutoring sessions</string>
+    <string name="register">Register</string>
+    <string name="register_subtitle">Create an account to get started</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="student_email">Student Email (.edu or .ac.za)</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="no_account_register">Don\'t have an account? Register</string>
+    <string name="already_registered_login">Already registered? Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="course_code">Course Code</string>
+    <string name="year_of_study">Year of Study (1-7)</string>
+    
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="profile_details">Profile Details</string>
+    <string name="read_only_info">Course code and year of study cannot be changed</string>
+    <string name="tutor_mode">Tutor Mode</string>
+    <string name="tutor_mode_description">Enable to become a tutor and help fellow students with their studies. You can still book sessions as a student.</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    
+    <!-- Dashboard -->
+    <string name="your_subjects">Your Subjects</string>
+    <string name="select_subject_hint">Select a subject to find available tutors</string>
+    <string name="subject_icon">Subject Icon</string>
+    <string name="tutor_icon">Tutor Icon</string>
+    
+    <!-- Sessions -->
+    <string name="sessions">Sessions</string>
+    <string name="available_tutors">Available Tutors</string>
+    <string name="no_tutors_available">No tutors available for this subject yet</string>
+    <string name="session_details">Session Details</string>
+    <string name="select_session_date">Select Session Date and Time</string>
+    <string name="select_date_and_time">Select Date and Time</string>
+    <string name="session_type">Session Type</string>
+    <string name="online_ms_teams">Online (Microsoft Teams)</string>
+    <string name="in_person_library">In Person (Steve-Biko Library)</string>
+    <string name="book_session">Book Session</string>
+    <string name="no_sessions_yet">You don\'t have any sessions yet</string>
+    <string name="no_sessions_found">No sessions found</string>
+    
+    <!-- Payments -->
+    <string name="payments">Payments</string>
+    <string name="monthly_payment">Monthly Payment</string>
+    <string name="payment_receipt">Payment Receipt</string>
+    <string name="no_payment_due">No payment due at this time</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="view_payment_history">View Payment History</string>
+    <string name="payment_history">Payment History</string>
+    <string name="no_payment_history">No payment history found</string>
+    
+    <!-- Feedback -->
+    <string name="feedback">Feedback</string>
+    <string name="sessions_needing_feedback">Sessions Needing Feedback</string>
+    <string name="no_sessions_need_feedback">No sessions need feedback at this time</string>
+    <string name="tap_to_provide_feedback">Tap to provide feedback</string>
+    <string name="provide_feedback">Provide Feedback</string>
+    <string name="how_was_your_session">How was your session?</string>
+    <string name="comments">Comments</string>
+    <string name="comments_hint">Tell us about your experience (helpful, knowledgeable, punctual, etc.)</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Chatbot -->
+    <string name="help_assistant">Help Assistant</string>
+    <string name="chat_help">Help</string>
+    <string name="type_a_message">Type a message…</string>
+    <string name="send_message">Send message</string>
+    
+    <!-- Navigation Drawer -->
+    <string name="user_name">User Name</string>
+    <string name="user_email">user@example.com</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+</resources>

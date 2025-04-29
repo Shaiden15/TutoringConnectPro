@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".session.TutorListActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/tvTutorsHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grayLight"
+        android:padding="16dp"
+        android:text="@string/available_tutors"
+        android:textColor="@color/grayDark"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/listTutors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/grayLight"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        android:id="@+id/tvEmptyTutors"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/no_tutors_available"
+        android:textColor="@color/grayDark"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</LinearLayout>

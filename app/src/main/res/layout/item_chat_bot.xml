@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/grayLight"
+        android:maxWidth="270dp"
+        android:padding="12dp"
+        android:textColor="@color/grayDark"
+        android:textSize="16sp"
+        tools:text="This is a bot response message that might be quite long and wrap to multiple lines" />
+
+</LinearLayout>
