@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_dialog_feedback.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/dialog_feedback.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_email.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_subject.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_subject.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_send.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_send.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_item_feedback_session.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/item_feedback_session.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_item_chat_user.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_person.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_book_session.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_book_session.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_login.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_sessions.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_sessions.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_lock.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_item_tutor.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/item_tutor.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_person_circle.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_person_circle.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_payment.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_payment.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_chatbot.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_chatbot.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_item_payment.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/item_payment.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_item_session.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/item_session.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/menu_drawer_menu.xml.flat",
+        "source": "com.tutoringapp-main-47:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_payment_history.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_payment_history.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_notification.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_dashboard.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_feedback.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_register.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_profile.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_payments.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_payments.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_item_subject.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/item_subject.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_school.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_school.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_help.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_help.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_item_chat_bot.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/item_chat_bot.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_nav_header.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/nav_header.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_main.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_calendar.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_fragment_session_list.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/fragment_session_list.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_feedback.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_feedback.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/drawable_ic_logout.xml.flat",
+        "source": "com.tutoringapp-main-47:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.tutoringapp-merged_res-45:/layout_activity_tutor_list.xml.flat",
+        "source": "com.tutoringapp-main-47:/layout/activity_tutor_list.xml"
+    }
+]

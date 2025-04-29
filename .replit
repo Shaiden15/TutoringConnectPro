@@ -1,7 +1,8 @@
-modules = ["java"]
+modules = ["java", "java-11"]
 
 [nix]
 channel = "stable-24_05"
+packages = ["jdk11", "android-tools", "unzip"]
 
 [workflows]
 runButton = "Project"
@@ -13,20 +14,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "workflow.run"
-args = "Android App Server"
-
-[[workflows.workflow.tasks]]
-task = "workflow.run"
 args = "android_app_runner"
-
-[[workflows.workflow]]
-name = "Android App Server"
-author = "agent"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "cd app && ./gradlew appStart"
-waitForPort = 5000
 
 [[workflows.workflow]]
 name = "android_app_runner"
@@ -34,7 +22,11 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "java -jar build/libs/tutoringapp.jar"
+args = """
+export ANDROID_HOME=/home/runner/android-sdk
+export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java))))
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
+./gradlew :app:assembleDebug"""
 
 [deployment]
 run = ["sh", "-c", "cd app && ./gradlew appStart"]
